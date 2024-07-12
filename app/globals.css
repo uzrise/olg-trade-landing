@@ -132,8 +132,11 @@ a {
 }
 .contact-us-card {
   border-radius: 32px;
-  background: #303030;
   flex-shrink: 0;
   backdrop-filter: blur(60px);
   max-width: 550px;
+}
+
+input ::placeholder {
+  color: white !important;
 }
