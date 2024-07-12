@@ -5,12 +5,10 @@ import type { LinkProps } from 'next/link';
 import { usePathname } from 'next/navigation';
 
 const navbarItems = [
-  { ref: '/', label: 'Home' },
-  { ref: '/about', label: 'About' },
-  { ref: '/projects', label: 'Projects' },
-  { ref: '/team', label: 'Team' },
-  { ref: '/news', label: 'News' },
-  { ref: '/contact', label: 'Contact' },
+  { ref: '#home', label: 'Home' },
+  { ref: '#about', label: 'About ' },
+  { ref: '#our-goals', label: 'Our Goals' },
+  { ref: '#contact', label: 'Contact' },
 ];
 
 const StyledNavLink = ({
@@ -64,6 +62,7 @@ export function NavBar() {
         </div>
       </button>
       <nav
+        id="home"
         className={`${
           isMenuShown
             ? 'max-md:w-full max-md:opacity-100'

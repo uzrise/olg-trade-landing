@@ -15,10 +15,6 @@ const Header = () => (
             className="flex flex-col sm:flex-row items-center gap-2 sm:gap-6"
           >
             <Logo />
-            <div>
-              <span className="block font-site">ChoosEquality</span>
-              <span className="text-xs">Education for All</span>
-            </div>
           </a>
         </h2>
         <div>
