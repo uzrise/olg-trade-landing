@@ -86,7 +86,7 @@ export default function Home() {
         <div className="basis-1/3">
           <div className="h-[370px] relative">
             <WixMediaImage
-              media="/images/values.png"
+              media="/images/values-section.png"
               objectFit="cover"
               sizes="50vw"
               disableZoom={true}
