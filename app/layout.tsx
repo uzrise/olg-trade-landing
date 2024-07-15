@@ -22,7 +22,7 @@ export default function RootLayout({
           content="Your best supplier of various goods"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="https://www.wix.com/favicon.ico" />
+        <link rel="icon" href="/images/logo.png" />
       </head>
       <body className="text-blue-site bg-white">
         <>
